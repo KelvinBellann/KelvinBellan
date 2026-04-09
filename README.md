@@ -1,6 +1,6 @@
 <div align="center">
 
-# Kelvin Bellann
+# 🐞 Kelvin Bellan
 
 <img
   src="https://readme-typing-svg.demolab.com/?lines=QA+Engineer+S%C3%AAnior+%7C+Automa%C3%A7%C3%A3o+%7C+Qualidade+de+Software&font=Fira%20Code&center=true&width=780&height=60&duration=3500&pause=1000"
@@ -8,7 +8,6 @@
 />
 
 <p align="center">
-  <a href="https://github.com/KelvinBellann"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/kelvin-bellan-68273a15a"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:kelvin.bellan@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
@@ -19,9 +18,9 @@
 
 QA Engineer com mais de 5 anos de experiência na construção de estratégias de qualidade, automação de testes e validação de sistemas críticos.
 
-Atuo de ponta a ponta no ciclo de desenvolvimento, com foco em confiabilidade, escalabilidade e entrega contínua de valor, conectando testes funcionais, não funcionais e pipelines de qualidade a produtos reais.
+- Atuo de ponta a ponta no ciclo de desenvolvimento, com foco em confiabilidade, escalabilidade e entrega contínua de valor, conectando testes funcionais, não funcionais e pipelines de qualidade a produtos reais.
 
-Este perfil reúne projetos, práticas e abordagens que representam minha atuação em QA moderna, com automação em múltiplas camadas, análise de risco e foco consistente em qualidade como parte do processo.
+- Este perfil reúne projetos, práticas e abordagens que representam minha atuação em QA moderna, com automação em múltiplas camadas, análise de risco e foco consistente em qualidade como parte do processo.
 
 ---
 
@@ -91,11 +90,4 @@ Este perfil reúne projetos, práticas e abordagens que representam minha atuaç
 |---|---|---|
 | [qa-e2e-cypress](https://github.com/KelvinBellann/qa-e2e-cypress) | Framework E2E com foco em legibilidade, Page Objects, fixtures, determinismo e integração contínua para um fluxo de compra completo. | Cypress, JavaScript, Page Objects, GitHub Actions |
 | [Buger-eats-Cypress](https://github.com/KelvinBellann/Buger-eats-Cypress) | Projeto de automação de interface voltado a fluxos funcionais da aplicação Buger Eats, com boas práticas de estruturação e execução de testes GUI. | Cypress, JavaScript, UI Testing |
-
-### Cenários de Negócio e Contexto Corporativo
-
-| Projeto | Resumo | Stack |
-|---|---|---|
 | [sentinel-crm-finance](https://github.com/KelvinBellann/sentinel-crm-finance) | Suite E2E para um CRM financeiro com autenticação por perfil, gestão de clientes, invoices, pagamentos e validação de regras de permissão. | Cypress, JavaScript, CI, Business Flows |
-
-Mais projetos em: [github.com/KelvinBellann](https://github.com/KelvinBellann?tab=repositories)
