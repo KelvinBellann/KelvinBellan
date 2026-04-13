@@ -1,0 +1,27 @@
+name: Profile Security Hygiene
+
+on:
+  push:
+    branches:
+      - Master
+      - 'feature/**'
+  pull_request:
+    branches:
+      - Master
+  workflow_dispatch:
+
+jobs:
+  security-hygiene:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run repository hygiene checks
+        run: node tests/security/repo-hygiene-check.js

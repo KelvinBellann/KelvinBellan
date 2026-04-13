@@ -99,3 +99,26 @@ Este perfil reúne projetos, práticas e abordagens que representam minha atuaç
 | [sentinel-crm-finance](https://github.com/KelvinBellann/sentinel-crm-finance) | Suite E2E para um CRM financeiro com autenticação por perfil, gestão de clientes, invoices, pagamentos e validação de regras de permissão. | Cypress, JavaScript, CI, Business Flows |
 
 Mais projetos em: [github.com/KelvinBellann](https://github.com/KelvinBellann?tab=repositories)
+
+---
+
+## Security QA Hygiene
+
+Este repositorio agora inclui uma verificacao automatizada minima de higiene de seguranca para evitar exposicao acidental de secrets e arquivos de ambiente sensiveis no proprio portfolio.
+
+### Escopo coberto
+
+- `tests/security/repo-hygiene-check.js`: busca por padroes comuns de segredo e bloqueio de `.env` versionado
+- `.github/workflows/security.yml`: execucao separada da verificacao em CI
+
+### Como executar
+
+```bash
+node tests/security/repo-hygiene-check.js
+```
+
+### Limitacoes
+
+- Este repositório nao possui aplicacao web, API ou mobile, entao controles como auth, sessao, headers, CORS, IDOR/BOLA, injection e upload nao se aplicam aqui
+
+O racional completo e as premissas estao registrados em [SECURITY_TEST_PLAN.md](./SECURITY_TEST_PLAN.md).
